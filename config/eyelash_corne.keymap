@@ -26,12 +26,6 @@
     trigger-period-ms = <16>;
 };
 
-&mt {
-    tapping-term-ms = <275>;   // 原默认 ~200ms，调大更容易判为 tap
-    quick-tap-ms    = <150>;   // 快速点按必定判为 tap
-    flavor = "tap-preferred";  // 判定策略：偏向点按
-};
-
 / {
     behaviors {
         td0: td0 {
