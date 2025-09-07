@@ -26,10 +26,6 @@
     trigger-period-ms = <16>;
 };
 
-&mt {
-    tapping-term-ms = <500>;
-};
-
 / {
     behaviors {
         td0: td0 {
@@ -38,22 +34,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        rpi: require_prior_idle {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_RPI";
-            #binding-cells = <2>;          // 这个行为需要两个绑定：tap 与 hold
-            // 判定策略：偏向点按，适合 home-row mods
-            flavor = "tap-preferred";
-            // 正常的 tap/hold 判定窗口（可按手感微调 180~300）
-            tapping-term-ms = <200>;
-            // 快速点按直接当 tap（建议 150~220）
-            quick-tap-ms = <200>;
-            // 关键：如果在上一个非修饰键后的 125ms 内按下，则立即当 tap
-            require-prior-idle-ms = <125>;
-            // 下面这行只是定义占位，真正的键值在调用时传入
-            bindings = <&kp>, <&kp>;
-        };
-
     };
 
     rgb_encoder: rgb_encoder {
