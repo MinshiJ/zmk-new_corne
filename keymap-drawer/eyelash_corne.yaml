@@ -18,13 +18,13 @@ layers:
   - A
   - S
   - D
-  - F
+  - Sft+F
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
+  - Sft+J
   - K
   - L
   - {t: ;, s: ':'}
