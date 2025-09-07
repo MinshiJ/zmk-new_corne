@@ -26,6 +26,10 @@
     trigger-period-ms = <16>;
 };
 
+&mt {
+    tapping-term-ms = <275>;
+};
+
 / {
     behaviors {
         td0: td0 {
