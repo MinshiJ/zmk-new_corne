@@ -78,12 +78,12 @@ layers:
   - $$mdi:arrow-right-bold$$
   - END
   - PG UP
-  - BT CLR ALL
+  - '&bl BL_TOG'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - '&bl BL_TOG'
+  - $$mdi:bluetooth-off$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
