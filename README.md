@@ -1,4 +1,4 @@
-- [中文](README.md)
+<!-- - [中文](README.md)
 - [English](README_EN.md)
 
 # 睫毛外设 (Eyelash Peripherals) Corne ZMK 仓库
@@ -16,7 +16,7 @@
 3. 确保 [`config/west.yml`](config/west.yml) 中的 `eyelash_corne` 项目仍然有效。`boards/arm/eyelash_corne` 文件夹将从此 URL 下载。
 4. 如果您的叉取中仍存在 `boards/arm/eyelash_corne` 文件夹，请将其删除。
 
-**如果您已经有 ZMK 配置仓库，[您可以将此作为模块添加，而不是叉取](https://zmk.dev/docs/features/modules#building-with-modules)。**
+**如果您已经有 ZMK 配置仓库，[您可以将此作为模块添加，而不是叉取](https://zmk.dev/docs/features/modules#building-with-modules)。** -->
 
 ## Corne 键位图
 
